@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.snir.memo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Aide Mémoire</name>
+    <description>Aide Mémoire App designed by SNIR2022</description>
+    <author email="btssnir2022@gmail.com" href="https://cordova.apache.org">
+        BTS SNIR Team
+    </author>
+    <content src="index.html" />
+    <icon src="www/img/logo.png"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/splash.xml" />
+    <preference name="AndroidWindowSplashScreenBackground" value="#141414"/>
+</widget>
