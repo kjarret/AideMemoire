@@ -74,9 +74,11 @@ table {
   top: 17%;
   border: 1px solid #333;
   width: 33%;
-  height: 45%;
+  height: 350px;
+  max-height: 350px;
   background-color: rgba(250, 186, 49, 0.8);
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   color: #000;
   border-bottom-right-radius: 15px;
 }
@@ -91,12 +93,13 @@ table {
 td {
   text-align: center;
   font-weight: 700;
+  font-size: 30px;
 }
-/*
-tbody>tr td:first-child {
-    border: dashed 1px black;
+
+#evenementsTable th,
+td {
+  font-size: 25px;
 }
-*/
 
 tbody > tr td {
   border: dashed 1px black;
@@ -118,25 +121,28 @@ img {
 }
 
 /*      ANNIVERSAIRE    */
-#birthday {
+#anniversaire {
   position: absolute;
-  top: 72.5%;
+  top: 70%;
   left: 60%;
   font-size: 25px;
   width: 33%;
-  height: 13%;
+  height: 12%;
   text-align: center;
   border: thick double #f00000;
   border-radius: 15px;
   text-shadow: 0 0 3px #000, 0 0 5px #000;
   background-color: rgba(0.8);
+  padding-top: 20px;
   backdrop-filter: blur(5px);
 }
-
-#birthday p {
-  margin: 20px 0px;
+#anniversaire p {
+  margin: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
-
 /*      -----------    */
 
 /*      SLIDER PHOTO      */
@@ -145,10 +151,11 @@ img {
   top: 49%;
   margin-left: 5%;
   border: inset 10px rgb(255, 255, 255);
-  width: 42%;
+  width: 500px;
   height: 35%;
   z-index: 0;
 }
+
 .image {
   position: absolute;
   top: 0px;

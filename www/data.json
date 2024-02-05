@@ -1,0 +1,47 @@
+{
+  "evenements": [
+    {
+      "heure": "09:00",
+      "date": "2023-06-12",
+      "evenement": "Passage infirmière Sophie"
+    },
+    {
+      "heure": "13:45",
+      "date": "2023-06-12",
+      "evenement": "Prise de médicaments Paracétamol"
+    },
+    {
+      "heure": "14:15",
+      "date": "2023-06-12",
+      "evenement": "Sport de la semaine"
+    },
+    {
+      "heure": "18:00",
+      "date": "2023-06-12",
+      "evenement": "Passage infirmière Camille"
+    },
+    {
+      "heure": "19:00",
+      "date": "2023-06-12",
+      "evenement": "Dîner Famille"
+    }
+  ],
+  "anniversaires": [
+    {
+      "anniversaire": "Jérôme",
+      "date": "1990-02-15"
+    },
+    {
+      "anniversaire": "Kenny",
+      "date": "2003-07-30"
+    },
+    {
+      "anniversaire": "Sébastien",
+      "date": "1885-02-10"
+    },
+    {
+      "anniversaire": "Chloé",
+      "date": "2007-05-29"
+    }
+  ]
+}
