@@ -3,16 +3,15 @@ var sliderIndex = 0;
 var slider = document.getElementById("slider");
 var images = slider.getElementsByTagName("img");
 
-setInterval(function() {  // fonction slider photo
+setInterval(function () {
+  // fonction slider photo
   images[sliderIndex].style.visibility = "hidden"; // approprie le style visible en caché
-  sliderIndex++;  // incrémente de 1 la variable sliderIndex 
+  sliderIndex++; // incrémente de 1 la variable sliderIndex
   if (sliderIndex >= images.length) {
     sliderIndex = 0;
   }
   images[sliderIndex].style.visibility = "visible"; // style.display = "block";
 }, 5000);
-
-
 
 /*        SETTINGS BUTTON     */
 
@@ -23,27 +22,26 @@ var aElement = document.getElementById("reglage").getElementsByTagName("a")[0];
 var pressTimer = null;
 
 // ajoute un événement pour commencer le chronomètre lorsque la touche est enfoncée
-aElement.addEventListener("touchstart", function(e) {
+aElement.addEventListener("touchstart", function (e) {
   // empêche le défilement de la page
   e.preventDefault();
 
   // démarre le chronomètre
-  pressTimer = setTimeout(function() {
+  pressTimer = setTimeout(function () {
     // ouvre la balise <a> après 5 secondes
     window.location.href = aElement.href;
   }, 5000);
 });
 
 // ajoute un événement pour annuler le chronomètre si la touche est relâchée avant 5 secondes
-aElement.addEventListener("touchend", function(e) {
+aElement.addEventListener("touchend", function (e) {
   clearTimeout(pressTimer);
 });
 
 // ajoute également un événement pour annuler le chronomètre si la touche quitte l'élément <a>
-aElement.addEventListener("touchcancel", function(e) {
+aElement.addEventListener("touchcancel", function (e) {
   clearTimeout(pressTimer);
 });
-
 
 /*    SLIDER IMG IMPORT   
 
