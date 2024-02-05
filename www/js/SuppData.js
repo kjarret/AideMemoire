@@ -1,4 +1,3 @@
-
 /*const fs = require('fs');
 
 // Charger les données depuis le fichier data.json

@@ -6,10 +6,12 @@
 body {
   color: white;
   height: auto;
-  background-color: whitesmoke;
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  height: 100%;
 }
+
 /*         IMG BACKGROUND            */
+
 #background {
   position: absolute;
   left: 0px;
@@ -18,6 +20,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 /*      REGLAGE BUTTON          */
 #reglage {
   position: absolute;
