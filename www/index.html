@@ -20,15 +20,15 @@
           class="togglebtn"
           autocomplete="off"
         />
-        <label class="togglebtn conditional"
+        <label for="demo4" class="togglebtn conditional"
           ><span class="indicator"></span
         ></label>
-        <label class="conditional on">Horloge Analogique</label>
-        <label class="conditional off">Horloge Numérique</label>
+        <label for="demo4" class="conditional on">Horloge Analogique</label>
+        <label for="demo4" class="conditional off">Horloge Numérique</label>
       </div>
 
       <div>
-        <label>Importer une Alarme</label>
+        <label for="audioFile">Importer une Alarme</label>
         <input
           type="file"
           name="FileImport"
@@ -38,15 +38,15 @@
       </div>
 
       <div id="AlarmT">
-        <label>Volume de l'alarme</label>
+        <label for="AlarmVolume">Volume de l'alarme</label>
         <div class="range-wrap">
-          <input type="range" class="range" />
+          <input type="range" class="range" id="AlarmVolume" />
           <output class="bubble"></output>
         </div>
       </div>
 
       <div>
-        <label>Importer des photos</label>
+        <label for="FileImport">Importer des photos</label>
         <input
           type="file"
           id="FileImport"
